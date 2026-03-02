@@ -36,11 +36,18 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  background: var(--bg-color);
+
+  background: #ffffff; /* solid background */
+  color: #222;
+
   border: 1px solid rgba(0,0,0,0.1);
-  min-width: 200px;
+  min-width: 220px;
+
   display: none;
   flex-direction: column;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  border-radius: 8px;
 }
 
 /* Dropdown links */
