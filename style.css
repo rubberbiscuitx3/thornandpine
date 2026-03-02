@@ -2,3 +2,59 @@ body {
   font-family: system-ui, sans-serif;
   margin: 40px;
 }
+
+/* Remove default list styles */
+.menu,
+.dropdown {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Top-level menu */
+.menu {
+  display: flex;
+  gap: 24px;
+}
+
+/* Links */
+.menu a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  padding: 8px 12px;
+  display: block;
+}
+
+/* Parent items */
+.has-dropdown {
+  position: relative;
+}
+
+/* Hide dropdown initially */
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--bg-color);
+  border: 1px solid rgba(0,0,0,0.1);
+  min-width: 200px;
+  display: none;
+  flex-direction: column;
+}
+
+/* Dropdown links */
+.dropdown li a {
+  padding: 10px 14px;
+}
+
+/* Show dropdown on hover */
+.has-dropdown:hover .dropdown {
+  display: block;
+}
+
+/* Hover effect */
+.menu a:hover {
+  background: rgba(0,0,0,0.05);
+  border-radius: 6px;
+}
