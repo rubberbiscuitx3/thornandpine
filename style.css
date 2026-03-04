@@ -6,7 +6,7 @@ body {
 .site-header {
   display: flex;
   align-items: center;   /* vertically align logo + nav */
-  justify-content: space-between; /* pushes nav to the right */
+  gap: 40px; /* controls spacing between logo + nav */
 }
 
 /* Remove default list styles */
