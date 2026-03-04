@@ -3,6 +3,12 @@ body {
   margin: 40px;
 }
 
+.site-header {
+  display: flex;
+  align-items: center;   /* vertically align logo + nav */
+  justify-content: space-between; /* pushes nav to the right */
+}
+
 /* Remove default list styles */
 .menu,
 .dropdown {
