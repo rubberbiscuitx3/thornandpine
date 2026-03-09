@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
-  font-family: fraunces, system-ui, sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 40px;
+  background-color: #f7f3ec;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  color: #1f3d36;
+}
+
+h2 {
+  font-family: 'Fraunces', serif;
+  color: #4f7a6b;
 }
 
 .site-header {
